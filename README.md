@@ -1,1 +1,3 @@
 # CSCI-299-New-Project
+
+This Blackjack project brings together strategy and thoughtful design to create a blackjack game. The game sticks to its roots while introducing engaging features like betting and turn transitions, all presented through a clean interface. A highlight of the project is the added probabilistic logic, allowing the computer dealer to analyze the remaining deck and make informed decisions about whether to hit or stay. With iterative improvements focusing on functionality, the project achieves a classic experience allowing users to enjoy the game of blackjack in a simple and though out design.
