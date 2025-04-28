@@ -1,3 +1,12 @@
 # CSCI-299-New-Project
 
-This Blackjack project brings together strategy and thoughtful design to create a blackjack game. The game sticks to its roots while introducing engaging features like betting and turn transitions, all presented through a clean interface. A highlight of the project is the added probabilistic logic, allowing the computer dealer to analyze the remaining deck and make informed decisions about whether to hit or stay. With iterative improvements focusing on functionality, the project achieves a classic experience allowing users to enjoy the game of blackjack in a simple and though out design.
+Context: A browser-based Spring Boot Blackjack game where players start with ten points to bet.
+Challenges: Implementing accurate points tracking, seamless integration between backend and frontend, and smooth game flow.
+Approach:
+- Backend: A Player, Deck, Blackjack, Card, and Dealer class for game management and a BlackjackController for game logic.
+- Frontend: Simple, clean interface showing points and bets.
+- Testing: Focused on edge cases, like running out of points.
+
+Results: A functional and fun Blackjack experience that runs efficiently in a browser.
+Recommendations: Officially host a site for the program.
+
