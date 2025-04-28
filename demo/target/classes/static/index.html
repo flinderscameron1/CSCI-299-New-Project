@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #game, #dealer, #player {
+            margin: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Blackjack Game</h1>
+
+    <!-- Points Display -->
+    <p id="current-points">Points: 10</p> <!-- Display for current points -->
+
+    <!-- Game Controls -->
+    <div id="game">
+        <button id="start">Start Game</button>
+        <button id="hit" disabled>Hit</button>
+        <button id="stay" disabled>Stay</button>
+    </div>
+
+    <!-- Dealer Cards Section -->
+    <div id="dealer">
+        <h2>Dealer's Cards</h2>
+        <p id="dealer-cards">Hidden</p>
+    </div>
+
+    <!-- Player Cards Section -->
+    <div id="player">
+        <h2>Your Cards</h2>
+        <p id="player-cards"></p>
+    </div>
+
+    <!-- Script -->
+    <script src="app.js"></script>
+</body>
+</html>
